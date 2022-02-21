@@ -41,7 +41,8 @@ minima:
   social_links:
     twitter: fastdotai
     github: ZivSimchoni
-    #linkedin: ZivSimchoni
+    linkedin: ZivSimchoni
+    telegram: +MjPtAIiNncY1YzFk
 
 # Set this to true to get LaTeX math equation support
 use_math: 
