@@ -6,8 +6,6 @@ categories: [Windows]
 title: Windows Keyboard Shortcuts
 ---
 
-Table of Contents:
-
 ## Essential shortcuts
 
 These are the essential shortcuts for everyday usage.
