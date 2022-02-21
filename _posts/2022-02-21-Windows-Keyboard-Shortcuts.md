@@ -143,28 +143,29 @@ You can use these keyboard shortcuts to open, close, navigate, and complete spec
 
 On Windows 10, File Explorer includes many keyboard shortcuts to help you complete tasks a little quicker.
 Here's a list with the most useful shortcuts for File Explorer.
-| Keyboard shortcut | Action |
-|-------------------|--------|
-| Windows key + E | Open File Explorer. |
-| Alt + D | Select address bar. |
-| Ctrl + E (or Ctrl + F or F3) | Select search box. |
-| Ctrl + N | Open new window. |
-| Ctrl + W | Close active window. |
-| Ctrl + Mouse scroll wheel | Change view file and folder. |
-| Ctrl + Shift + E | Expands all folders from the tree in the navigation pane. |
-| Ctrl + Shift + N | Create new folder on desktop or File Explorer. |
-| Ctrl + L | Focus on the address bar. |
-| Ctrl + Shift + Number (1-8) | Changes folder view. |
-| Alt + P | Display preview panel. |
-| Alt + Enter | Open Properties settings for the selected item. |
-| Alt + Right arrow key | View next folder. |
-| Alt + Left arrow key (or Backspace) | View previous folder. |
-| Alt + Up arrow | Move up a level in the folder path. |
-| F11 | Switch active window full-screen mode. |
-| F4 | Switch focus to address bar. |
-| F6 | Cycle through elements on the screen. |
-| Home | Scroll to top of the window. |
-| End | Scroll to bottom of window. |
+
+| Keyboard shortcut                   | Action                                                    |
+| ----------------------------------- | --------------------------------------------------------- |
+| Windows key + E                     | Open File Explorer.                                       |
+| Alt + D                             | Select address bar.                                       |
+| Ctrl + E (or Ctrl + F or F3)        | Select search box.                                        |
+| Ctrl + N                            | Open new window.                                          |
+| Ctrl + W                            | Close active window.                                      |
+| Ctrl + Mouse scroll wheel           | Change view file and folder.                              |
+| Ctrl + Shift + E                    | Expands all folders from the tree in the navigation pane. |
+| Ctrl + Shift + N                    | Create new folder on desktop or File Explorer.            |
+| Ctrl + L                            | Focus on the address bar.                                 |
+| Ctrl + Shift + Number (1-8)         | Changes folder view.                                      |
+| Alt + P                             | Display preview panel.                                    |
+| Alt + Enter                         | Open Properties settings for the selected item.           |
+| Alt + Right arrow key               | View next folder.                                         |
+| Alt + Left arrow key (or Backspace) | View previous folder.                                     |
+| Alt + Up arrow                      | Move up a level in the folder path.                       |
+| F11                                 | Switch active window full-screen mode.                    |
+| F4                                  | Switch focus to address bar.                              |
+| F6                                  | Cycle through elements on the screen.                     |
+| Home                                | Scroll to top of the window.                              |
+| End                                 | Scroll to bottom of window.                               |
 
 ## Command Prompt shortcuts
 
