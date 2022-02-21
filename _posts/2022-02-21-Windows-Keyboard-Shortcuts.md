@@ -6,6 +6,8 @@ categories: [Windows]
 title: Windows Keyboard Shortcuts
 ---
 
+Table of Contents:
+
 ## Essential shortcuts
 
 These are the essential shortcuts for everyday usage.
@@ -37,9 +39,7 @@ These are the essential shortcuts for everyday usage.
 | Windows key + D                      | Display and hide the desktop.                                                                            |
 | Windows key + L                      | Lock device.                                                                                             |
 
-#
-
-### Windows Key Shortcuts
+## Windows Key Shortcuts
 
 Using the Windows key combined with other keys, you can perform many useful tasks, such as launch Settings, File Explorer, Run command, apps pinned in the taskbar, or you can open specific features like Narrator or Magnifier. You can also accomplish tasks like controlling windows, virtual desktops, taking screenshots, locking your device, and a lot more.
 Here's a list with all the most common keyboard shortcuts using the Windows key.
@@ -107,9 +107,7 @@ Here's a list with all the most common keyboard shortcuts using the Windows key.
 | Windows key + Period (.) or semicolon (;) | Open emoji panel.                                                                       |
 | Windows key + Pause                       | Show System Properties dialog box.                                                      |
 
-#
-
-# Desktop shortcuts
+## Desktop shortcuts
 
 You can use these keyboard shortcuts to open, close, navigate, and complete specific tasks more quickly throughout the desktop experience, including on Start menu, taskbar, Settings, and more.
 | Keyboard shortcut | Action |
@@ -141,9 +139,7 @@ You can use these keyboard shortcuts to open, close, navigate, and complete spec
 | Shift + Arrow keys | Select multiple items. |
 | Backspace | Return to Settings app home page. |
 
-#
-
-# File Explorer shortcuts
+## File Explorer shortcuts
 
 On Windows 10, File Explorer includes many keyboard shortcuts to help you complete tasks a little quicker.
 Here's a list with the most useful shortcuts for File Explorer.
@@ -170,9 +166,7 @@ Here's a list with the most useful shortcuts for File Explorer.
 | Home | Scroll to top of the window. |
 | End | Scroll to bottom of window. |
 
-#
-
-# Command Prompt shortcuts
+## Command Prompt shortcuts
 
 If you use Command Prompt, you can use these keyboard shortcuts to work a little more efficiently.
 
@@ -191,5 +185,3 @@ If you use Command Prompt, you can use these keyboard shortcuts to work a little
 | Page down                    | Move cursor one page down.                            |
 | Ctrl + Home                  | Scroll to top of the console.                         |
 | Ctrl + End                   | Scroll to the bottom of the console.                  |
-
-#
