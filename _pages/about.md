@@ -7,7 +7,7 @@ permalink: About Me
 
 # Hi there! 👋🏽
 
-My name is Ziv and I'm a developer, student.
+My name is **Ziv** and I'm a developer, student.
 
 - 💬 Moto:
 

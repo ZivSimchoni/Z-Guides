@@ -1,43 +1,45 @@
 ---
 toc: false
 layout: page
-title: Guides
+title: My Guides
 permalink: Guides
 ---
-
-<!--
-    TODO:
-    * Fix that Line:
-    * Re-order that page in alphabetical order
-    * Add list of contents in the top of each page
- -->
 
 Privacy and security oriented guides and some general ones
 
 ## Android Related
 
-- [Android Apps](Android.md)
+- [Android Apps](../_posts/2022-02-24-Androird.md)
+
+## GitHub Customizations
+
+- [GitHub Customizations](../_posts/2022-02-21-GitHub.md)
 
 ## IOS Related
 
-- [IOS Apps](IOS.md)
-
-## Windows Related
-
-- [Windows Privacy](Windows.md)
-- [Windows Shortcuts](../_posts/Windows-Keyboard-Shortcuts.md)
-- [Windows Shortcuts](Windows-Keyboard-Shortcuts.md)
+- [IOS Apps](../_posts/2022-02-24-IOS.md)
 
 ## Linux Related
 
-- [Linux Distros](Linux.md)
+- [Linux Distros](../_posts/2022-02-25-Linux.md)
 
 ## Mac Related
 
-- [Mac Shortcuts](MacShortcuts.md)
+- [Mac Shortcuts](../_posts/2022-02-21-Mac-Keyboard-Shortcuts.md)
+
+## Programing Related
+
+- [Programming Related](../_posts/2022-02-24-Programming.md)
 
 ## Programs
 
-- [Software and Programs](ProgramList.md)
+- [Software and Programs](../_posts/2022-02-20-ProgramList.md)
 
-## [Resources And Notable Links](Notable.md)
+## Various Resources And Additional Links
+
+- [Resources And Links](../_posts/2022-02-23-Links.md)
+
+## Windows Related
+
+- [Windows Hardening & Activation](../_posts/2022-02-20-windows.md)
+- [Windows Shortcuts](../_posts/2022-02-22-Windows-Keyboard-Shortcuts.md)
