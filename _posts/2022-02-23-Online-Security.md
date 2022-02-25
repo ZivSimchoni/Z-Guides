@@ -8,7 +8,7 @@ hide_deepnote_badge: true
 toc: false
 layout: post
 description: What is online security and how can we enhance it?
-categories: [Security, Privacy]
+categories: [security, privacy, post]
 comments: true
 author: Ziv Simchoni
 image: images/security.jpg

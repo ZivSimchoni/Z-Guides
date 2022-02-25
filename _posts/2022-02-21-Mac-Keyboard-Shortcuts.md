@@ -8,10 +8,10 @@ hide_deepnote_badge: true
 toc: true
 layout: post
 description: List of keyboard shortcuts for Mac
-categories: [Mac, Shortcuts]
-comments: false
+categories: [mac, shortcuts]
+comments: true
 author: Ziv Simchoni
-image: images/MacKeyboard.jpg
+image: images/appleShortcuts.png
 nb_path: _notebooks/2022-02-21-Mac-Keyboard-Shortcuts.ipynb
 layout: notebook
 ---
@@ -163,7 +163,7 @@ layout: notebook
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Power-Shortcuts">Power Shortcuts<a class="anchor-link" href="#Power-Shortcuts"> </a></h2><p>{% include note.html content='that some of the shortcuts below don’t apply to Macs with Touch ID Power buttons.' %}<br></p>
+<h2 id="Power-Shortcuts">Power Shortcuts<a class="anchor-link" href="#Power-Shortcuts"> </a></h2><p>{% include note.html content='Some of the shortcuts below don’t apply to Macs with Touch ID Power buttons.' %}<br></p>
 <table>
 <thead><tr>
 <th>Keyboard shortcut</th>
@@ -765,7 +765,7 @@ layout: notebook
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>{% include important.html content='Thanks for &#8217;Mahmoud Itani&#8217; from XDA <a href="https://www.xda-developers.com/keyboard-shortcuts-mac">OP Link</a>' %}</p>
+<p>{% include important.html content='Thanks for &#8217;Mahmoud Itani&#8217; from XDA, <strong>All</strong> the credits for that post goes to him!. <a href="https://www.xda-developers.com/keyboard-shortcuts-mac">OP Link</a>' %}</p>
 
 </div>
 </div>

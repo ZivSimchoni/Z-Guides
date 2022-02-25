@@ -7,8 +7,8 @@ badges: false
 hide_binder_badge: true
 hide_colab_badge: true
 hide_deepnote_badge: true
-description: List of Generally good software, programs and apps
-categories: [Software, Programs, Apps]
+description: List of various good software and programs
+categories: [software, programs]
 comments: true
 author: Ziv Simchoni
 image: images/programs.png
@@ -172,10 +172,7 @@ layout: notebook
 <div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="Security">Security<a class="anchor-link" href="#Security"> </a></h2><ul>
 <li><a href="https://www.axcrypt.net/">AxCrypt</a> - AxCrypt is a simple file encryption software for Windows. It integrates seamlessly with your workflow to encrypt, decrypt, store, send and work with files.</li>
-<li><a href="https://github.com/bitwarden/desktop">Bitwarden Desktop (Github)</a> - The Bitwarden desktop app is written using Electron and Angular.<ul>
-<li><a href="https://bitwarden.com/download/">Bitwarden (Site)</a></li>
-</ul>
-</li>
+<li><a href="https://bitwarden.com/download">Bitwarden</a> - Bitwarden is a secure password manager for Windows, Mac, and Linux.</li>
 <li><a href="https://bvckup2.com">Bvckup2</a> -Simple fast backup: Light, versatile and very capable data replication software. Select a pair of folders and it will make sure that one stays an exact copy of the other.</li>
 <li><a href="https://cryptomator.org/">Cryptomator</a> - Free &amp; Open Source client-side encryption for Dropbox, Google Drive, you name it. Protect your cloud files.</li>
 <li><a href="https://www.enigmail.net">Enigmail</a> - Enigmail automatically decrypts and verifies your Email.</li>
@@ -196,14 +193,11 @@ layout: notebook
 <h2 id="Social">Social<a class="anchor-link" href="#Social"> </a></h2><ul>
 <li><a href="https://github.com/gochrono/chrono">Chrono</a> - Chrono is a time tracking tool written in Go. It is fast and simple to use.</li>
 <li><a href="https://discordapp.com">Discord</a> - Step up your game with a modern voice &amp; text chat app. Crystal clear voice, multiple server and channel support.</li>
-<li><a href="https://www.emclient.com/">eM Client</a> - Fast email client with full Gmail, Hotmail and other services synchronization. Best replacement for MS Outlook or Thunderbird.</li>
-<li><a href="https://matrix.org/">Matrix</a> - An open network for secure, decentralized communication.<ul>
-<li><a href="https://github.com/matrix-org">Matrix GitHub</a></li>
-</ul>
-</li>
+<li><a href="https://www.emclient.com">eM Client</a> - Fast email client with full Gmail, Hotmail and other services synchronization. Best replacement for MS Outlook or Thunderbird.</li>
+<li><a href="https://matrix.org">Matrix</a> - An open network for secure, decentralized communication.</li>
 <li><a href="https://mattermost.com">Mattermost</a> - Open Source, Private Slack Cloud Alternative.</li>
-<li><a href="https://rocket.chat/">RocketChat</a> - Rocket.Chat is free, unlimited and open source. Replace email, HipChat &amp; Slack with the ultimate team chat software solution.</li>
-<li><a href="http://www.teamspeak.com/">Teamspeak</a> - VoIP communication system for Online Gaming.</li>
+<li><a href="https://rocket.chat">RocketChat</a> - Rocket.Chat is free, unlimited and open source. Replace email, HipChat &amp; Slack with the ultimate team chat software solution.</li>
+<li><a href="http://www.teamspeak.com">Teamspeak</a> - VoIP communication system for Online Gaming.</li>
 <li><a href="https://www.thunderbird.net">Thunderbird</a> - Thunderbird is a free email application that's easy to set up and customize - and it's loaded with great features!</li>
 </ul>
 

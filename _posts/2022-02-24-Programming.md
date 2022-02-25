@@ -8,7 +8,7 @@ hide_colab_badge: true
 hide_deepnote_badge: true
 layout: post
 description: List of Programming Related Sources
-categories: [Software,Programming, Code, Programs, Apps]
+categories: [programming, code]
 comments: true
 author: Ziv Simchoni
 image: images/programming.png
@@ -36,6 +36,7 @@ layout: notebook
 <li><a href="https://www.glassdoor.com">GlassDoor</a> - Glassdoor also allows users to anonymously submit and view salaries as well as search and apply for jobs on its platform.</li>
 <li><a href="https://www.hackthebox.eu">Hack The Box</a> - Offering everything that is required to take your training seriously and kickstart a career in cybersecurity..</li>
 <li><a href="https://www.keybr.com">Keyboard</a> - This web application will help you to learn touch typing, which means typing through muscle memory without using the sense of sight to find the keys on the keyboard.</li>
+<li><a href="https://learnxinyminutes.com">Learn X in Y minutes</a> - Community-driven site to take a whirlwind tour of your next favorite language.</li>
 <li><a href="https://github.com/karan/Projects/blob/master/README.md">Mega Project List</a> - A list of practical projects that anyone can solve in any programming language. (Good for programing practices)</li>
 <li><a href="https://pastebin.com">Pastebin</a> - Store any text online for easy sharing. (Expiration time can be set to texts)</li>
 <li><a href="https://stackoverflow.com">Stack Overflow</a> - The most popular, community-based space to find and contribute answers to technical challenges.</li>
@@ -48,7 +49,7 @@ layout: notebook
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Programming-Related-Programs-/-Links">Programming Related Programs / Links<a class="anchor-link" href="#Programming-Related-Programs-/-Links"> </a></h2><ul>
+<h2 id="Related-Programs-/-Links">Related Programs / Links<a class="anchor-link" href="#Related-Programs-/-Links"> </a></h2><ul>
 <li><a href="https://www.arduino.cc">Arduino</a> - Open-source electronic prototyping platform enabling users to create interactive electronic objects</li>
 <li><a href="https://autohotkey.com">AutoHotkey</a> - Free keyboard macro program.</li>
 <li>Git<ul>
@@ -60,6 +61,7 @@ development workflow.</li>
 </ul>
 </li>
 <li><a href="https://www.mysql.com">MySQL</a> - MySQL is an open-source relational database management system.</li>
+<li><a href="https://www.npmjs.com">npm</a> - Node Package Manager</li>
 <li><a href="https://nodejs.org">Node.js</a> - Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine.</li>
 <li><a href="https://www.jetbrains.com/pycharm">PyCharm</a> - PyCharm is an integrated development environment (IDE) used in computer programming, specifically for the Python language.</li>
 <li><a href="https://github.com/Eugeny/terminus">Terminus</a> - A terminal for the modern age.</li>
@@ -97,7 +99,6 @@ development workflow.</li>
 <li><a href="https://isocpp.org">C++ ISO</a> - The home of Standard C++ on the web.</li>
 </ul>
 </li>
-<li><a href="https://learnxinyminutes.com">Learn X in Y minutes</a> - Community-driven site to take a whirlwind tour of your next favorite language.</li>
 <li><a href="https://www.python.org">Python</a> - Python is an interpreted high-level programming language for general-purpose programming.<ul>
 <li><a href="https://automatetheboringstuff.com">Automate The Boring Stuff</a> - For complete beginners to programming.</li>
 <li><a href="https://docs.python.org/3/tutorial">Python Tutorial</a> - Official tutorial.</li>

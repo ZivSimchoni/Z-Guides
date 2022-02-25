@@ -8,8 +8,8 @@ hide_deepnote_badge: true
 toc: true
 layout: post
 description: List of keyboard shortcuts for Windows
-categories: [Windows, Shortcuts]
-comments: false
+categories: [windows, shortcuts]
+comments: true
 author: Ziv Simchoni
 image: images/winShortcuts.png
 nb_path: _notebooks/2022-02-22-Windows-Keyboard-Shortcuts.ipynb
