@@ -5,8 +5,6 @@ title: My Guides
 permalink: Guides
 ---
 
-Privacy and security oriented guides and some general ones
-
 ## Android Related
 
 - [Android Apps](../_posts/2022-02-24-Androird.md)
@@ -21,7 +19,7 @@ Privacy and security oriented guides and some general ones
 
 ## Linux Related
 
-- [Linux Distros](../_posts/2022-02-25-Linux.md)
+- [Linux Distros](../_posts/2022-02-24-Linux.md)
 
 ## Mac Related
 
@@ -43,3 +41,7 @@ Privacy and security oriented guides and some general ones
 
 - [Windows Hardening & Activation](../_posts/2022-02-20-windows.md)
 - [Windows Shortcuts](../_posts/2022-02-22-Windows-Keyboard-Shortcuts.md)
+
+> _This is a list of guides and sources that I've collected/created.<br>I'm not a professional - just a man who likes to learn and share knowledge.<br>There are probably some errors or typos and If you have any suggestions, please let me know!_
+
+## [Contribution Guidelines](../_pages/Contributions.md)
