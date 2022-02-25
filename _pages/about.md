@@ -2,7 +2,7 @@
 toc: false
 layout: page
 title: About Me
-permalink: About Me
+permalink: about
 ---
 
 # Hi there! 👋🏽
