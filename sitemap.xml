@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>https://zivsimchoni.github.io/Z-Guides/software/programs/apps/2022/02/20/ProgramList.html</loc>
+<loc>https://zivsimchoni.github.io/Z-Guides/software/programs/2022/02/20/ProgramList.html</loc>
 <lastmod>2022-02-20T00:00:00-06:00</lastmod>
 </url>
 <url>
-<loc>https://zivsimchoni.github.io/Z-Guides/privacy/guide/security/2022/02/20/windows.html</loc>
+<loc>https://zivsimchoni.github.io/Z-Guides/privacy/windows/2022/02/20/windows.html</loc>
 <lastmod>2022-02-20T00:00:00-06:00</lastmod>
 </url>
 <url>
-<loc>https://zivsimchoni.github.io/Z-Guides/customize/customization/guides/2022/02/21/GitHub.html</loc>
+<loc>https://zivsimchoni.github.io/Z-Guides/customization/github/2022/02/21/GitHub.html</loc>
 <lastmod>2022-02-21T00:00:00-06:00</lastmod>
 </url>
 <url>
@@ -25,11 +25,11 @@
 <lastmod>2022-02-23T00:00:00-06:00</lastmod>
 </url>
 <url>
-<loc>https://zivsimchoni.github.io/Z-Guides/security/privacy/2022/02/23/Online-Security.html</loc>
+<loc>https://zivsimchoni.github.io/Z-Guides/security/privacy/post/2022/02/23/Online-Security.html</loc>
 <lastmod>2022-02-23T00:00:00-06:00</lastmod>
 </url>
 <url>
-<loc>https://zivsimchoni.github.io/Z-Guides/ads/2022/02/24/Ads.html</loc>
+<loc>https://zivsimchoni.github.io/Z-Guides/ads/post/2022/02/24/Ads.html</loc>
 <lastmod>2022-02-24T00:00:00-06:00</lastmod>
 </url>
 <url>
@@ -41,18 +41,21 @@
 <lastmod>2022-02-24T00:00:00-06:00</lastmod>
 </url>
 <url>
-<loc>https://zivsimchoni.github.io/Z-Guides/linux/distros/2022/02/24/Linux.html</loc>
+<loc>https://zivsimchoni.github.io/Z-Guides/linux/2022/02/24/Linux.html</loc>
 <lastmod>2022-02-24T00:00:00-06:00</lastmod>
 </url>
 <url>
-<loc>https://zivsimchoni.github.io/Z-Guides/software/programming/code/programs/apps/2022/02/24/Programming.html</loc>
+<loc>https://zivsimchoni.github.io/Z-Guides/programming/code/2022/02/24/Programming.html</loc>
 <lastmod>2022-02-24T00:00:00-06:00</lastmod>
+</url>
+<url>
+<loc>https://zivsimchoni.github.io/Z-Guides/Contributions</loc>
 </url>
 <url>
 <loc>https://zivsimchoni.github.io/Z-Guides/Guides</loc>
 </url>
 <url>
-<loc>https://zivsimchoni.github.io/Z-Guides/About%20Me</loc>
+<loc>https://zivsimchoni.github.io/Z-Guides/about</loc>
 </url>
 <url>
 <loc>https://zivsimchoni.github.io/Z-Guides/</loc>
