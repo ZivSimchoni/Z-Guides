@@ -150,13 +150,13 @@ layout: notebook
 <li><a href="https://joplinapp.org">Joplin</a> - An open source note taking and to-do application with synchronisation capabilities..</li>
 <li><a href="https://laverna.cc">Laverna</a> - Laverna - keep your notes private.</li>
 <li><a href="https://www.libreoffice.org">LibreOffice</a> - Free office suite, open source.</li>
-<li><a href="http://markdownpad.com">MarkdownPad2</a> - MarkdownPad is a full-featured Markdown editor for Windows.</li>
 <li><a href="https://github.com/olivierkes/manuskript">Manuskript</a> - Manuskript is an open-source tool for writers.</li>
+<li><a href="http://markdownpad.com">MarkdownPad2</a> - MarkdownPad is a full-featured Markdown editor for Windows.</li>
 <li><a href="https://github.com/fabiospampinato/notable">Notable</a> - The markdown-based note-taking app that doesn't suck.</li>
 <li><a href="https://notepad-plus-plus.org">NotePad++</a> - Notepad++ is a free (as in "free speech" and also as in "free beer") source code editor and Notepad replacement that supports several languages.</li>
+<li><a href="https://obsidian.md">Obsidian Notes</a> - Obsidian is a powerful knowledge base on top of a local folder of plain text Markdown files.</li>
 <li><a href="https://github.com/burtonator/polar-bookshelf">Polar Bookshelf</a> - Polar Bookshelf is an incremental reading and personal knowledge .repository for PDF and the web created using the Electron framework and PDF.js.</li>
 <li><a href="https://www.qownnotes.org">QOwnNotes</a> - QOwnNotes is a free plain-text notepad with markdown support for Linux, Mac OS X and Windows.</li>
-<li><a href="https://obsidian.md">Obsidian Notes</a> - Obsidian is a powerful knowledge base on top of a local folder of plain text Markdown files.</li>
 <li><a href="https://github.com/gildas-lormeau/SingleFile">SingleFile</a> - SingleFile is a WebExtension compatible with Chrome, Firefox (Desktop and .Mobile), and Opera that helps you to save a complete web page into a single HTML file.</li>
 <li><a href="https://standardnotes.org">Standard Notes</a> - Standard Notes is a safe place for your notes, thoughts, and life's work.</li>
 <li><a href="https://tiddlywiki.com">TiddlyWiki</a> - a non-linear personal web notebook.</li>
