@@ -7,7 +7,7 @@ permalink: Guides
 
 ## Android Related
 
-- [Android Apps](../_posts/2022-02-24-Androird.md)
+- [Android Apps](../_posts/2022-02-24-Android.md)
 
 ## GitHub Customizations
 
