@@ -29,6 +29,8 @@ layout: notebook
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>{% include note.html content='Mostly Programing Sources and links.' %}</p>
 <h2 id="Links">Links<a class="anchor-link" href="#Links"> </a></h2><ul>
+<li><a href="https://www.asciitable.com">Ascii Table</a> - If you want check <a href="https://en.wikipedia.org/wiki/ASCII">Wiki</a>.</li>
+<li><a href="https://www.cs.usfca.edu/~galles/visualization/Algorithms.html">Algorithms and Data Structures Visualization</a></li>
 <li><a href="https://github.com/sdmg15/Best-websites-a-programmer-should-visit">Best Sites GitHub Repo</a> - Some useful websites for programmers.</li>
 <li><a href="https://www.bigocheatsheet.com">Big-O Cheat Sheet</a> - Space and time Big-O complexities of common algorithms used in Computer Science.</li>
 <li><a href="https://curated-courses.herokuapp.com">Curated Courses</a> - A curated list of courses in Computer Science, Physics, Economics and Math.</li>
@@ -39,6 +41,7 @@ layout: notebook
 <li><a href="https://learnxinyminutes.com">Learn X in Y minutes</a> - Community-driven site to take a whirlwind tour of your next favorite language.</li>
 <li><a href="https://github.com/karan/Projects/blob/master/README.md">Mega Project List</a> - A list of practical projects that anyone can solve in any programming language. (Good for programing practices)</li>
 <li><a href="https://pastebin.com">Pastebin</a> - Store any text online for easy sharing. (Expiration time can be set to texts)</li>
+<li><a href="https://regex101.com">Regex101</a> - Learn regular expressions in a fun and interactive way.</li>
 <li><a href="https://stackoverflow.com">Stack Overflow</a> - The most popular, community-based space to find and contribute answers to technical challenges.</li>
 <li><a href="https://github.com/sdmg15/Best-websites-a-programmer-should-visit">Useful GitHub repo for programmers</a></li>
 <li><a href="https://www.w3schools.com">W3Schools</a> - Learn programing languages.</li>
@@ -104,6 +107,7 @@ development workflow.</li>
 <li><a href="https://docs.python.org/3/tutorial">Python Tutorial</a> - Official tutorial.</li>
 <li><a href="https://pythondiscord.com">Python Discord</a> - Python focused Discord community. </li>
 <li><a href="https://realpython.com">Real Python</a> - Python Tutorials, guides and tricks.</li>
+<li><a href="https://www.pythoncheatsheet.org">Python Cheat Sheets</a> - A collection of Python code snippets and examples.</li>
 </ul>
 </li>
 <li><a href="https://golang.org">Go</a> - Go is an open source programming language that makes it easy to build simple, reliable, and efficient software.</li>
