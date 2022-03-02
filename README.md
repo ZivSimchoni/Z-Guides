@@ -11,6 +11,7 @@ https://ZivSimchoni.github.io/Z-Guides/
 
 _powered by [fastpages](https://github.com/fastai/fastpages)_
 
+**images and icons from `www.flaticon.com` & `www.freepik.com`**
 
 ## What To Do Next?
 
