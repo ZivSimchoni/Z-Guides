@@ -100,39 +100,42 @@ layout: notebook
 <li><a href="https://www.wireshark.org/#download">WireShark</a> - A free and open-source packet analyzer.</li>
 </ul>
 <h3 id="Web-Browsers">Web Browsers<a class="anchor-link" href="#Web-Browsers"> </a></h3><ul>
-<li><a href="https://www.torproject.org/projects/torbrowser.html.en">Tor Browser</a> - The Tor software protects you by bouncing your communications around a distributed network of relays run by volunteers all around the world.</li>
+<li><a href="https://brave.com">Brave</a> - Brave is a privacy-first web browser.</li>
 <li><a href="https://www.mozilla.org/en-US/firefox/new/">FireFox</a> - No shady privacy policies or back doors for advertisers. Just a lightning fast browser that doesn’t sell you out.<ul>
 <li><a href="https://github.com/arkenfox/user.js">FireFox user.js</a></li>
 <li><a href="https://www.privacyguides.org/blog/2021/12/01/firefox-privacy-2021-update/">Firefox privacy tweaks</a></li>
 </ul>
 </li>
 <li><a href="https://librewolf-community.gitlab.io/install/">LibreWolf</a> - A fork of Firefox, focused on privacy, security and freedom.</li>
-<li><a href="https://github.com/Eloston/ungoogled-chromium">Ungoogled Chromium (GitHub)</a> - A lightweight approach to removing Google web service dependency.</li>
+<li><a href="https://www.torproject.org/projects/torbrowser.html.en">Tor Browser</a> - The Tor software protects you by bouncing your communications around a distributed network of relays run by volunteers all around the world.</li>
+<li><a href="https://github.com/Eloston/ungoogled-chromium">Ungoogled Chromium</a> - A lightweight approach to removing Google web service dependency.</li>
+<li><a href="https://www.waterfox.net/download">Waterfox</a> - Firefox fork, Waterfox is a lightweight, fast, and secure web browser. {% fn 1 %}</li>
 </ul>
 <h3 id="Web-Browsers-Extensions">Web Browsers Extensions<a class="anchor-link" href="#Web-Browsers-Extensions"> </a></h3><ul>
-<li>ClearURL - Removes tracking elements from URLs.<ul>
-<li><a href="https://clearurls.xyz">Site</a></li>
+<li><a href="https://clearurls.xyz">ClearURL</a> - Removes tracking elements from URLs.<ul>
 <li><a href="https://addons.mozilla.org/en-US/firefox/addon/clearurls">Firefox</a></li>
 <li><a href="https://chrome.google.com/webstore/detail/clearurls/lckanjgmijmafbedllaakclkaicjfmnk">Chrome</a></li>
 </ul>
 </li>
+<li><a href="https://addons.mozilla.org/en-US/firefox/addon/facebook-container/">Facebook Container</a> - Mozilla's Facebook Container extension.</li>
+<li>Mouse Gestures - Navigate, operate, and browse faster with mouse gestures!.<ul>
+<li><a href="https://addons.mozilla.org/en-US/firefox/addon/gesturefy/">Gesturefy (FireFox)</a></li>
+<li><a href="https://chrome.google.com/webstore/detail/crxmouse-chrome-gestures/jlgkpaicikihijadgifklkbpdajbkhjo">CrxMouse (Chrome Store)</a></li>
+</ul>
+</li>
 <li><a href="https://www.xbrowsersync.org">XBrowserSync</a></li>
-<li>UBlock Origin - Free, open-source ad content blocker.<ul>
-<li><a href="https://ublockorigin.com">Site</a></li>
+<li><a href="https://ublockorigin.com">UBlock Origin</a> - Free, open-source ad content blocker.<ul>
 <li><a href="https://addons.mozilla.org/en-US/firefox/addon/ublock-origin">Firefox</a></li>
 <li><a href="https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm">Chrome</a></li>
 </ul>
 </li>
-<li><a href="https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/">Multi Account Containers (firefox)</a> - Cookies are separated by container, allowing you to use the web with multiple identities or accounts simultaneously.</li>
-<li><a href="https://addons.mozilla.org/en-US/firefox/addon/facebook-container/">Facebook Container</a> - Mozilla's Facebook Container extension.</li>
-<li>EFF - HTTPS Everywhere - Force HTTPS (can be configured without addon too.)<ul>
-<li><a href="https://www.eff.org/https-everywhere">Site</a></li>
+<li><a href="https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/">Multi Account Containers (Firefox)</a> - Cookies are separated by container, allowing you to use the web with multiple identities or accounts simultaneously.</li>
+<li>EFF - <a href="https://www.eff.org/https-everywhere">HTTPS Everywhere</a> - Force HTTPS (can be configured without addon too.)<ul>
 <li><a href="https://addons.mozilla.org/en-US/firefox/addon/https-everywhere">Firefox</a></li>
 <li><a href="https://chrome.google.com/webstore/detail/https-everywhere/gcbommkclmclpchllfjekcdonpmejbdp">Chrome</a></li>
 </ul>
 </li>
-<li>No Script - Protect yourself against XSS other web security exploits.<ul>
-<li><a href="https://noscript.net">Site</a></li>
+<li><a href="https://noscript.net">No Script</a> - Protect yourself against XSS other web security exploits.<ul>
 <li><a href="https://addons.mozilla.org/en-US/firefox/addon/noscript">Firefox</a></li>
 <li><a href="https://chrome.google.com/webstore/detail/noscript/doojmbjmlfjjnbmnoijecmcbfeoakpjm">Chrome</a></li>
 </ul>
@@ -235,6 +238,13 @@ layout: notebook
 <li><a href="https://github.com/GothenburgBitFactory/taskwarrior">Taskwarrior</a> - NTaskwarrior is a GTD, todo list, task management, command line utility with a multitude of features.</li>
 <li><a href="https://www.codesector.com/teracopy">TeraCopy</a> - Official site of TeraCopy, a free utility designed to copy files faster and more secure. It can verify copied files to ensure they are identical.</li>
 </ul>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>{{ 'Note that some website will not work with that browser' | fndetail: 1 }}</p>
 
 </div>
 </div>
