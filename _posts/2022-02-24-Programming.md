@@ -29,8 +29,8 @@ layout: notebook
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>{% include note.html content='Mostly Programing Sources and links.' %}</p>
 <h2 id="Links">Links<a class="anchor-link" href="#Links"> </a></h2><ul>
-<li><a href="https://www.asciitable.com">Ascii Table</a> - If you want check <a href="https://en.wikipedia.org/wiki/ASCII">Wiki</a>.</li>
 <li><a href="https://www.cs.usfca.edu/~galles/visualization/Algorithms.html">Algorithms and Data Structures Visualization</a></li>
+<li><a href="https://www.asciitable.com">Ascii Table</a> - If you want check <a href="https://en.wikipedia.org/wiki/ASCII">Wiki</a>.</li>
 <li><a href="https://github.com/sdmg15/Best-websites-a-programmer-should-visit">Best Sites GitHub Repo</a> - Some useful websites for programmers.</li>
 <li><a href="https://www.bigocheatsheet.com">Big-O Cheat Sheet</a> - Space and time Big-O complexities of common algorithms used in Computer Science.</li>
 <li><a href="https://curated-courses.herokuapp.com">Curated Courses</a> - A curated list of courses in Computer Science, Physics, Economics and Math.</li>
@@ -55,6 +55,7 @@ layout: notebook
 <h2 id="Related-Programs-/-Links">Related Programs / Links<a class="anchor-link" href="#Related-Programs-/-Links"> </a></h2><ul>
 <li><a href="https://www.arduino.cc">Arduino</a> - Open-source electronic prototyping platform enabling users to create interactive electronic objects</li>
 <li><a href="https://autohotkey.com">AutoHotkey</a> - Free keyboard macro program.</li>
+<li><a href="https://www.eclipse.org/downloads/">Eclipse</a> - Open-source IDE mainly used for Java and C/C++ programming.</li>
 <li>Git<ul>
 <li><a href="https://git-scm.com">Git</a> - Git is a free and open source distributed version control system.</li>
 <li><a href="https://github.com/gitahead/gitahead">GitAhead</a> - GitAhead is a graphical Git client designed to help you understand and manage your source code history.</li>
@@ -63,12 +64,14 @@ development workflow.</li>
 <li><a href="https://gitea.io/en-us">Gitea</a> - A painless self-hosted Git service.</li>
 </ul>
 </li>
+<li><a href="https://www.jetbrains.com/idea/download/">IntelliJ IDEA</a> - Very popular IDE for various programming languages.</li>
 <li><a href="https://www.mysql.com">MySQL</a> - MySQL is an open-source relational database management system.</li>
 <li><a href="https://www.npmjs.com">npm</a> - Node Package Manager</li>
 <li><a href="https://nodejs.org">Node.js</a> - Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine.</li>
 <li><a href="https://www.jetbrains.com/pycharm">PyCharm</a> - PyCharm is an integrated development environment (IDE) used in computer programming, specifically for the Python language.</li>
 <li><a href="https://github.com/Eugeny/terminus">Terminus</a> - A terminal for the modern age.</li>
-<li><a href="https://github.com/Microsoft/vscode">Visual Studio Code (VSCode)</a> - VS Code is a type of tool that combines the simplicity of a code editor with what developers need.</li>
+<li><a href="https://visualstudio.microsoft.com">Visual Studio</a> - IDE that is used to develop computer programs, as well as websites, web apps, web services and mobile apps, and specifically great for C/C++/C#/.Net programming.</li>
+<li><a href="https://github.com/Microsoft/vscode">Visual Studio Code (VSCode)</a> - VSCode is a type of tool that combines the simplicity of a code editor with what developers need.</li>
 <li><a href="https://vscodium.com">VScodium (Site)</a> - Community-driven, binary releases of VSCode without MS branding/telemetry/licensing.<ul>
 <li><a href="https://github.com/VSCodium/vscodium">VScodium (GitHub)</a></li>
 </ul>
