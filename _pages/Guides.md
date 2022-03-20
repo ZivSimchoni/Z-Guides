@@ -1,7 +1,7 @@
 ---
 toc: false
 layout: page
-title: My Guides
+title: My Wiki
 permalink: Guides
 ---
 
@@ -41,6 +41,8 @@ permalink: Guides
 
 - [Windows Hardening & Activation](../_posts/2022-02-20-windows.md)
 - [Windows Shortcuts](../_posts/2022-02-22-Windows-Keyboard-Shortcuts.md)
+
+<br><br>
 
 > _This is a list of guides and sources that I've collected/created.<br>I'm not a professional - just a man who likes to learn and share knowledge.<br>There are probably some errors or typos and If you have any suggestions, please let me know!_
 
