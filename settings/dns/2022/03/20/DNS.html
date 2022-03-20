@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>What’s DNS And How To Change It? | Ziv Simchoni</title>
+<meta name="generator" content="Jekyll v4.1.1" />
+<meta property="og:title" content="What’s DNS And How To Change It?" />
+<meta name="author" content="Ziv Simchoni" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="What’s DNS and How to change it?" />
+<meta property="og:description" content="What’s DNS and How to change it?" />
+<link rel="canonical" href="https://zivsimchoni.github.io/Z-Guides/settings/dns/2022/03/20/DNS.html" />
+<meta property="og:url" content="https://zivsimchoni.github.io/Z-Guides/settings/dns/2022/03/20/DNS.html" />
+<meta property="og:site_name" content="Ziv Simchoni" />
+<meta property="og:image" content="https://zivsimchoni.github.io/Z-Guides/images/DNS/dns.png" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2022-03-20T00:00:00-05:00" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="https://zivsimchoni.github.io/Z-Guides/images/DNS/dns.png" />
+<meta property="twitter:title" content="What’s DNS And How To Change It?" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Ziv Simchoni"},"dateModified":"2022-03-20T00:00:00-05:00","datePublished":"2022-03-20T00:00:00-05:00","description":"What’s DNS and How to change it?","headline":"What’s DNS And How To Change It?","image":"https://zivsimchoni.github.io/Z-Guides/images/DNS/dns.png","mainEntityOfPage":{"@type":"WebPage","@id":"https://zivsimchoni.github.io/Z-Guides/settings/dns/2022/03/20/DNS.html"},"url":"https://zivsimchoni.github.io/Z-Guides/settings/dns/2022/03/20/DNS.html"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/Z-Guides/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://zivsimchoni.github.io/Z-Guides/feed.xml" title="Ziv Simchoni" /><link rel="shortcut icon" type="image/x-icon" href="/Z-Guides/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+
+<script>
+function wrap_img(fn) {
+    if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
+        var elements = document.querySelectorAll(".post img");
+        Array.prototype.forEach.call(elements, function(el, i) {
+            if (el.getAttribute("title") && (el.className != "emoji")) {
+                const caption = document.createElement('figcaption');
+                var node = document.createTextNode(el.getAttribute("title"));
+                caption.appendChild(node);
+                const wrapper = document.createElement('figure');
+                wrapper.className = 'image';
+                el.parentNode.insertBefore(wrapper, el);
+                el.parentNode.removeChild(el);
+                wrapper.appendChild(el);
+                wrapper.appendChild(caption);
+            }
+        });
+    } else { document.addEventListener('DOMContentLoaded', fn); }
+}
+window.onload = wrap_img;
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function(){
+    // add link icon to anchor tags
+    var elem = document.querySelectorAll(".anchor-link")
+    elem.forEach(e => (e.innerHTML = '<i class="fas fa-link fa-xs"></i>'));
+    });
+</script>
+</head>
+<body><header class="site-header">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/Z-Guides/">Ziv Simchoni</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/Z-Guides/Guides">My Wiki</a><a class="page-link" href="/Z-Guides/about">About Me</a><a class="page-link" href="/Z-Guides/search/">Search</a><a class="page-link" href="/Z-Guides/categories/">Tags</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">What&#39;s DNS And How To Change It?</h1><p class="page-description">What's DNS and How to change it?</p><p class="post-meta post-meta-title"><time class="dt-published" datetime="2022-03-20T00:00:00-05:00" itemprop="datePublished">
+        Mar 20, 2022
+      </time>• 
+          <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+            <span class="p-author h-card" itemprop="name">Ziv Simchoni</span></span>
+       • <span class="read-time" title="Estimated read time">
+    
+    
+      9 min read
+    
+</span></p>
+
+    
+      <p class="category-tags"><i class="fas fa-tags category-tags-icon"></i></i> 
+      
+        <a class="category-tags-link" href="/Z-Guides/categories/#Settings">Settings</a>
+        &nbsp;
+      
+        <a class="category-tags-link" href="/Z-Guides/categories/#DNS">DNS</a>
+        
+      
+      </p>
+    
+
+    
+      </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <ul id="toc" class="section-nav">
+<li class="toc-entry toc-h1"><a href="#What-is-DNS?">What is DNS? </a>
+<ul>
+<li class="toc-entry toc-h2"><a href="#How-does-DNS-work?">How does DNS work? </a>
+<ul>
+<li class="toc-entry toc-h3"><a href="#Authoritative-DNS-server">Authoritative DNS server </a></li>
+</ul>
+</li>
+<li class="toc-entry toc-h2"><a href="#What-are-the-steps-in-a-DNS-lookup?">What are the steps in a DNS lookup? </a>
+<ul>
+<li class="toc-entry toc-h3"><a href="#The-8-steps-in-a-DNS-lookup-(assuming-nothing-is-cached):">The 8 steps in a DNS lookup (assuming nothing is cached): </a></li>
+</ul>
+</li>
+<li class="toc-entry toc-h2"><a href="#What-is-a-DNS-resolver?">What is a DNS resolver? </a></li>
+<li class="toc-entry toc-h2"><a href="#What-are-the-types-of-DNS-queries?">What are the types of DNS queries? </a>
+<ul>
+<li class="toc-entry toc-h3"><a href="#3-types-of-DNS-queries:">3 types of DNS queries: </a></li>
+</ul>
+</li>
+<li class="toc-entry toc-h2"><a href="#What-is-DNS-caching?-Where-does-DNS-caching-occur?">What is DNS caching? Where does DNS caching occur? </a>
+<ul>
+<li class="toc-entry toc-h3"><a href="#Browser-DNS-caching">Browser DNS caching </a></li>
+<li class="toc-entry toc-h3"><a href="#Operating-system-(OS)-level-DNS-caching">Operating system (OS) level DNS caching </a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-entry toc-h1"><a href="#How-To-Change-DNS-Settings-in-your-system?">How To Change DNS Settings in your system? </a>
+<ul>
+<li class="toc-entry toc-h2"><a href="#Windows-PCs">Windows PCs </a></li>
+<li class="toc-entry toc-h2"><a href="#Linux-Machines">Linux Machines </a></li>
+</ul>
+</li>
+</ul><!--
+#################################################
+### THIS FILE WAS AUTOGENERATED! DO NOT EDIT! ###
+#################################################
+# file to edit: _notebooks/2022-03-20-DNS.ipynb
+-->
+
+<div class="container" id="notebook-container">
+        
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="What-is-DNS?">
+<a class="anchor" href="#What-is-DNS?" aria-hidden="true"><span class="octicon octicon-link"></span></a>What is DNS?<a class="anchor-link" href="#What-is-DNS?"> </a>
+</h1>
+<p>The Domain Name System (<a href="https://en.wikipedia.org/wiki/Domain_Name_System">DNS</a>) is the phonebook of the Internet. Humans access websites through domains like google.com or youtube.com etc.<br>
+Web browsers interact through <a href="https://wikipedia.org/wiki/IP_address">Internet Protocol (IP)</a> addresses. DNS translates domain names to IP addresses so the browsers would "understand" what site you'r referring to.<br></p>
+<p>Each device connected to the Internet has a unique IP address which other machines (servers/computers) use to find the device.<br>
+DNS servers eliminate the need for humans to memorize IP addresses such as <code>192.168.1.1</code> (in <a href="https://wikipedia.org/wiki/IPv4">IPv4</a>), or more complex newer alphanumeric IP addresses such as     <code>fe80::1ff:fe23:4567:890a</code> (in <a href="https://wikipedia.org/wiki/IPv6">IPv6</a>).</p>
+<h2 id="How-does-DNS-work?">
+<a class="anchor" href="#How-does-DNS-work?" aria-hidden="true"><span class="octicon octicon-link"></span></a>How does DNS work?<a class="anchor-link" href="#How-does-DNS-work?"> </a>
+</h2>
+<p>The process of DNS resolution involves converting a hostname (i.e www.example.com) into a computer-friendly IP address (i.e <code>192.168.1.1</code>).<br>
+An IP address is given to each device on the Internet, and that address is necessary to find the appropriate Internet device - like a street address is used to find a particular home. When a user wants to load a webpage, a translation must occur between what a user types into their web browser (example.com) and the machine-friendly address necessary to locate the example.com webpage.<br></p>
+<p>In order to understand the process behind the DNS resolution, it’s important to learn about the different hardware components a DNS query must pass between. For the web browser, the DNS lookup occurs "behind the scenes" and requires no interaction from the user’s computer apart from the initial request.<br></p>
+<p><img src="https://www.cloudflare.com/img/learning/dns/what-is-dns/dns-record-request-sequence-3.png" alt="How DNS works - the 10 steps in a DNS query"></p>
+<h3 id="Authoritative-DNS-server">
+<a class="anchor" href="#Authoritative-DNS-server" aria-hidden="true"><span class="octicon octicon-link"></span></a>Authoritative DNS server<a class="anchor-link" href="#Authoritative-DNS-server"> </a>
+</h3>
+<p>Put simply, an authoritative DNS server is a server that actually holds, and is responsible for, DNS resource records. This is the server at the bottom of the DNS lookup chain that will respond with the queried resource record, ultimately allowing the web browser making the request to reach the IP address needed to access a website or other web resources. An authoritative nameserver can satisfy queries from its own data without needing to query another source, as it is the final source of truth for certain DNS records.</p>
+<h2 id="What-are-the-steps-in-a-DNS-lookup?">
+<a class="anchor" href="#What-are-the-steps-in-a-DNS-lookup?" aria-hidden="true"><span class="octicon octicon-link"></span></a>What are the steps in a DNS lookup?<a class="anchor-link" href="#What-are-the-steps-in-a-DNS-lookup?"> </a>
+</h2>
+<p>For most situations, DNS is concerned with a domain name being translated into the appropriate IP address. To learn how this process works, it helps to follow the path of a DNS lookup as it travels from a web browser, through the DNS lookup process, and back again. Let's take a look at the steps.
+</p>
+<div class="flash flash-warn">
+    <svg class="octicon octicon-zap" viewbox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M10.561 1.5a.016.016 0 00-.01.004L3.286 8.571A.25.25 0 003.462 9H6.75a.75.75 0 01.694 1.034l-1.713 4.188 6.982-6.793A.25.25 0 0012.538 7H9.25a.75.75 0 01-.683-1.06l2.008-4.418.003-.006a.02.02 0 00-.004-.009.02.02 0 00-.006-.006L10.56 1.5zM9.504.43a1.516 1.516 0 012.437 1.713L10.415 5.5h2.123c1.57 0 2.346 1.909 1.22 3.004l-7.34 7.142a1.25 1.25 0 01-.871.354h-.302a1.25 1.25 0 01-1.157-1.723L5.633 10.5H3.462c-1.57 0-2.346-1.909-1.22-3.004L9.503.429z"></path></svg>
+    <strong>Important: </strong>Often DNS lookup information will be cached either locally inside the querying computer or remotely in the DNS infrastructure. There are typically 8 steps in a DNS lookup. When DNS information is cached, steps are skipped from the DNS lookup process which makes it quicker.<br>
+</div>
+<h3 id="The-8-steps-in-a-DNS-lookup-(assuming-nothing-is-cached):">
+<a class="anchor" href="#The-8-steps-in-a-DNS-lookup-(assuming-nothing-is-cached):" aria-hidden="true"><span class="octicon octicon-link"></span></a>The 8 steps in a DNS lookup (assuming nothing is cached):<a class="anchor-link" href="#The-8-steps-in-a-DNS-lookup-(assuming-nothing-is-cached):"> </a>
+</h3>
+<ol>
+<li>A user types ‘example.com’ into a web browser and the query travels into the Internet and is received by a DNS recursive resolver.</li>
+<li>The resolver then queries a DNS root nameserver (.).</li>
+<li>The root server then responds to the resolver with the address of a Top Level Domain (TLD) DNS server (such as .com or .net), which stores the information for its domains. When searching for example.com, our request is pointed toward the .com TLD.</li>
+<li>The resolver then makes a request to the .com TLD.</li>
+<li>The TLD server then responds with the IP address of the domain’s nameserver, example.com.</li>
+<li>Lastly, the recursive resolver sends a query to the domain’s nameserver.</li>
+<li>The IP address for example.com is then returned to the resolver from the nameserver.</li>
+<li>The DNS resolver then responds to the web browser with the IP address of the domain requested initially.</li>
+</ol>
+<p>Once the 8 steps of the DNS lookup have returned the IP address for example.com, the browser is able to make the request for the web page:</p>
+<ol>
+<li>The browser makes a <a href="https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol">HTTP</a> request to the IP address.</li>
+<li>The server at that IP returns the webpage to be rendered in the browser (step 10).</li>
+</ol>
+<p><img src="https://www.cloudflare.com/img/learning/dns/what-is-dns/dns-lookup-diagram.png" alt="DNS query diagram"></p>
+<h2 id="What-is-a-DNS-resolver?">
+<a class="anchor" href="#What-is-a-DNS-resolver?" aria-hidden="true"><span class="octicon octicon-link"></span></a>What is a DNS resolver?<a class="anchor-link" href="#What-is-a-DNS-resolver?"> </a>
+</h2>
+<p>The DNS resolver is the first stop in the DNS lookup, and it is responsible for dealing with the client that made the initial request. The resolver starts the sequence of queries that ultimately leads to a URL being translated into the necessary IP address.</p>
+<p>Note: A typical uncached DNS lookup will involve both recursive and iterative queries.</p>
+<p>It's important to differentiate between a <a href="/learning/dns/what-is-recursive-dns/">recursive DNS</a> query and a recursive DNS resolver. The query refers to the request made to a DNS resolver requiring the resolution of the query. A DNS recursive resolver is the computer that accepts a recursive query and processes the response by making the necessary requests.<br></p>
+<p><img src="https://www.cloudflare.com/img/learning/dns/what-is-dns/dns-recursive-query.png" alt="DNS query diagram"></p>
+<h2 id="What-are-the-types-of-DNS-queries?">
+<a class="anchor" href="#What-are-the-types-of-DNS-queries?" aria-hidden="true"><span class="octicon octicon-link"></span></a>What are the types of DNS queries?<a class="anchor-link" href="#What-are-the-types-of-DNS-queries?"> </a>
+</h2>
+<p>In a typical DNS lookup three types of queries occur. By using a combination of these queries, an optimized process for DNS resolution can result in a reduction of distance traveled. In an ideal situation cached record data will be available, allowing a DNS name server to return a non-recursive query.</p>
+<h3 id="3-types-of-DNS-queries:">
+<a class="anchor" href="#3-types-of-DNS-queries:" aria-hidden="true"><span class="octicon octicon-link"></span></a>3 types of DNS queries:<a class="anchor-link" href="#3-types-of-DNS-queries:"> </a>
+</h3>
+<ol>
+<li>
+<strong>Recursive query</strong> - In a recursive query, a DNS client requires that a DNS server (typically a DNS recursive resolver) will respond to the client with either the requested resource record or an error message if the resolver can't find the record. </li>
+<li>
+<strong>Iterative query</strong> - in this situation the DNS client will allow a DNS server to return the best answer it can. If the queried DNS server does not have a match for the query name, it will return a referral to a DNS server authoritative for a lower level of the domain namespace. The DNS client will then make a query to the referral address. This process continues with additional DNS servers down the query chain until either an error or timeout occurs.</li>
+<li>
+<strong>Non-recursive query</strong> - typically this will occur when a DNS resolver client queries a DNS server for a record that it has access to either because it's authoritative for the record or the record exists inside of its cache. Typically, a DNS server will cache DNS records to prevent additional bandwidth consumption and load on upstream servers.</li>
+</ol>
+<h2 id="What-is-DNS-caching?-Where-does-DNS-caching-occur?">
+<a class="anchor" href="#What-is-DNS-caching?-Where-does-DNS-caching-occur?" aria-hidden="true"><span class="octicon octicon-link"></span></a>What is DNS caching? Where does DNS caching occur?<a class="anchor-link" href="#What-is-DNS-caching?-Where-does-DNS-caching-occur?"> </a>
+</h2>
+<p>The purpose of caching is to temporarily stored data in a location that results in improvements in performance and reliability for data requests. DNS caching involves storing data closer to the requesting client so that the DNS query can be resolved earlier and additional queries further down the DNS lookup chain can be avoided, thereby improving load times and reducing bandwidth/CPU consumption. DNS data can be cached in a variety of locations, each of which will store DNS records for a set amount of time determined by a <a href="https://en.wikipedia.org/wiki/Time_to_live#DNS_records">time-to-live (TTL)</a>.</p>
+<h3 id="Browser-DNS-caching">
+<a class="anchor" href="#Browser-DNS-caching" aria-hidden="true"><span class="octicon octicon-link"></span></a>Browser DNS caching<a class="anchor-link" href="#Browser-DNS-caching"> </a>
+</h3>
+<p>Modern web browsers are designed by default to cache DNS records for a set amount of time. The purpose here is obvious; the closer the DNS caching occurs to the web browser, the fewer processing steps must be taken in order to check the cache and make the correct requests to an IP address. When a request is made for a DNS record, the browser cache is the first location checked for the requested record.
+</p>
+<div class="flash">
+    <svg class="octicon octicon-info" viewbox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm6.5-.25A.75.75 0 017.25 7h1a.75.75 0 01.75.75v2.75h.25a.75.75 0 010 1.5h-2a.75.75 0 010-1.5h.25v-2h-.25a.75.75 0 01-.75-.75zM8 6a1 1 0 100-2 1 1 0 000 2z"></path></svg>
+    <strong>Note: </strong>You can see the status of your DNS cache by typing in the address bar:<br>In Chrome: <code>chrome://net-internals/#dns</code>.<br>In Firefox: <code>about:networking#dns</code>.<br>
+</div>
+<h3 id="Operating-system-(OS)-level-DNS-caching">
+<a class="anchor" href="#Operating-system-(OS)-level-DNS-caching" aria-hidden="true"><span class="octicon octicon-link"></span></a>Operating system (OS) level DNS caching<a class="anchor-link" href="#Operating-system-(OS)-level-DNS-caching"> </a>
+</h3>
+<p>The operating system level DNS resolver is the second and last local stop before a DNS query leaves your machine. The process inside your operating system that is designed to handle this query is commonly called a “stub resolver” or DNS client. When a stub resolver gets a request from an application, it first checks its own cache to see if it has the record.<br>If it does not, it then sends a DNS query (with a recursive flag set), outside the local network to a DNS recursive resolver inside the Internet service provider (ISP).</p>
+<p>When the recursive resolver inside the ISP receives a DNS query, like all previous steps, it will also check to see if the requested host-to-IP-address translation is already stored inside its local persistence layer.</p>
+<p>The recursive resolver also has additional functionality depending on the types of records it has in its cache:</p>
+<ol>
+<li>If the resolver does not have the <a href="https://www.cloudflare.com/learning/dns/dns-records/dns-a-record/">A records</a>, but does have the <a href="https://www.cloudflare.com/learning/dns/dns-records/dns-ns-record/">NS records</a> for the authoritative nameservers, it will query those name servers directly, bypassing several steps in the DNS query. This shortcut prevents lookups from the root and .com nameservers (in our search for example.com) and helps the resolution of the DNS query occur more quickly.</li>
+<li>If the resolver does not have the NS records, it will send a query to the TLD servers (.com in our case), skipping the root server.</li>
+<li>In the unlikely event that the resolver does not have records pointing to the TLD servers, it will then query the root servers. This event typically occurs after a DNS cache has been purged. </li>
+</ol>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="How-To-Change-DNS-Settings-in-your-system?">
+<a class="anchor" href="#How-To-Change-DNS-Settings-in-your-system?" aria-hidden="true"><span class="octicon octicon-link"></span></a>How To Change DNS Settings in your system?<a class="anchor-link" href="#How-To-Change-DNS-Settings-in-your-system?"> </a>
+</h1>
+<p></p>
+<div class="flash flash-warn">
+    <svg class="octicon octicon-zap" viewbox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M10.561 1.5a.016.016 0 00-.01.004L3.286 8.571A.25.25 0 003.462 9H6.75a.75.75 0 01.694 1.034l-1.713 4.188 6.982-6.793A.25.25 0 0012.538 7H9.25a.75.75 0 01-.683-1.06l2.008-4.418.003-.006a.02.02 0 00-.004-.009.02.02 0 00-.006-.006L10.56 1.5zM9.504.43a1.516 1.516 0 012.437 1.713L10.415 5.5h2.123c1.57 0 2.346 1.909 1.22 3.004l-7.34 7.142a1.25 1.25 0 01-.871.354h-.302a1.25 1.25 0 01-1.157-1.723L5.633 10.5H3.462c-1.57 0-2.346-1.909-1.22-3.004L9.503.429z"></path></svg>
+    <strong>Important: </strong>I am using Quad9 DNS, feel free to choose any other provider <a href="/Z-Guides/resources/2022/02/23/Links.html#DNS">some that I recommend</a>.
+</div>
+<h2 id="Windows-PCs">
+<a class="anchor" href="#Windows-PCs" aria-hidden="true"><span class="octicon octicon-link"></span></a>Windows PCs<a class="anchor-link" href="#Windows-PCs"> </a>
+</h2>
+<p></p>
+<div class="flash flash-success">
+    <svg class="octicon octicon-checklist" viewbox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M2.5 1.75a.25.25 0 01.25-.25h8.5a.25.25 0 01.25.25v7.736a.75.75 0 101.5 0V1.75A1.75 1.75 0 0011.25 0h-8.5A1.75 1.75 0 001 1.75v11.5c0 .966.784 1.75 1.75 1.75h3.17a.75.75 0 000-1.5H2.75a.25.25 0 01-.25-.25V1.75zM4.75 4a.75.75 0 000 1.5h4.5a.75.75 0 000-1.5h-4.5zM4 7.75A.75.75 0 014.75 7h2a.75.75 0 010 1.5h-2A.75.75 0 014 7.75zm11.774 3.537a.75.75 0 00-1.048-1.074L10.7 14.145 9.281 12.72a.75.75 0 00-1.062 1.058l1.943 1.95a.75.75 0 001.055.008l4.557-4.45z"></path></svg>
+    <strong>Tip: </strong>Exit everything that uses the network and then follow the steps below<br>
+</div>
+<br>
+<p><strong>Steps:</strong></p>
+<ol>
+<li>Click <strong>Win Key + X</strong>.</li>
+<li>Click <strong>Network Connections</strong>.</li>
+<li>Click <strong>Change Adapter Options</strong>.</li>
+<li>Right-click the desired network adapter (Wired or Wi-Fi adapter).</li>
+<li>Click on the <strong>Properties</strong> button.</li>
+<li>Click on the <strong>Internet Protocol Version 4 (TCP/IPv4)</strong>.</li>
+<li>Click on the <strong>Properties</strong> button.</li>
+<li>Click on <strong>Use the following DNS server addresses:</strong>
+</li>
+<li>Change the DNS servers to the ones you want.</li>
+<li>Click on the <strong>OK</strong> button.
+*Optional: Select IPv6 in Step 7 and continue to the next steps.</li>
+</ol>
+<p><strong><em>Alternative Way:</em></strong></p>
+<ol>
+<li>Open the Windows Control Panel.</li>
+<li>Click on the <strong>Network and Internet</strong> tab.</li>
+<li>Click on the <strong>Network</strong> tab.</li>
+<li>Click on the <strong>Network And Sharing Settings</strong> button.</li>
+<li>Click on the connection name should be <strong>Wired: (NETWORK NAME)</strong> or <strong>Wi-Fi: (NETWORK NAME)</strong>.</li>
+<li>Click <strong>Properties</strong>.</li>
+<li>Continue from <strong>step 6</strong> above.</li>
+</ol>
+<p><br>
+<img src="/Z-Guides/images/copied_from_nb/../images/DNS/Win1.png" alt="">
+<br>
+<img src="/Z-Guides/images/copied_from_nb/../images/DNS/Win2.png" alt="">
+<br>
+<img src="/Z-Guides/images/copied_from_nb/../images/DNS/Win3.png" alt="">
+<br>
+<img src="/Z-Guides/images/copied_from_nb/../images/DNS/Win4.png" alt="">
+<br>
+<img src="/Z-Guides/images/copied_from_nb/../images/DNS/Win5.png" alt="">
+<br>
+<img src="/Z-Guides/images/copied_from_nb/../images/DNS/Win6.png" alt="">
+<br></p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Linux-Machines">
+<a class="anchor" href="#Linux-Machines" aria-hidden="true"><span class="octicon octicon-link"></span></a>Linux Machines<a class="anchor-link" href="#Linux-Machines"> </a>
+</h2>
+<p></p>
+<div class="flash">
+    <svg class="octicon octicon-info" viewbox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm6.5-.25A.75.75 0 017.25 7h1a.75.75 0 01.75.75v2.75h.25a.75.75 0 010 1.5h-2a.75.75 0 010-1.5h.25v-2h-.25a.75.75 0 01-.75-.75zM8 6a1 1 0 100-2 1 1 0 000 2z"></path></svg>
+    <strong>Note: </strong>Im using Fedora 35, there might be slight differences in the settings for the other Distros though the general guidelines are the same.
+</div>
+<br>
+<div class="flash flash-success">
+    <svg class="octicon octicon-checklist" viewbox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M2.5 1.75a.25.25 0 01.25-.25h8.5a.25.25 0 01.25.25v7.736a.75.75 0 101.5 0V1.75A1.75 1.75 0 0011.25 0h-8.5A1.75 1.75 0 001 1.75v11.5c0 .966.784 1.75 1.75 1.75h3.17a.75.75 0 000-1.5H2.75a.25.25 0 01-.25-.25V1.75zM4.75 4a.75.75 0 000 1.5h4.5a.75.75 0 000-1.5h-4.5zM4 7.75A.75.75 0 014.75 7h2a.75.75 0 010 1.5h-2A.75.75 0 014 7.75zm11.774 3.537a.75.75 0 00-1.048-1.074L10.7 14.145 9.281 12.72a.75.75 0 00-1.062 1.058l1.943 1.95a.75.75 0 001.055.008l4.557-4.45z"></path></svg>
+    <strong>Tip: </strong>Exit everything that uses the network and then follow the steps below.
+</div>
+<br>
+<p><strong>Steps:</strong></p>
+<ol>
+<li>Right-click the desktop.</li>
+<li>Click <strong>Settings</strong>.</li>
+<li>Click <strong>Network</strong>.</li>
+<li>Click <strong>IPv4</strong>.</li>
+<li>Turn Off <strong>Automatic DNS</strong>.</li>
+<li>Change the DNS servers to the ones you want.</li>
+<li>Click on the <strong>OK</strong> button.
+*Optional: Select IPv6 in Step 4 and continue to the next steps.</li>
+</ol>
+<p><strong><em>Alternative Way:</em></strong>
+Change DNS using the <strong>terminal</strong>, example <a href="https://www.linuxfordevices.com/tutorials/linux/change-dns-on-linux">Here</a></p>
+<p><br>
+<img src="/Z-Guides/images/copied_from_nb/../images/DNS/linux1.png" alt="">
+<br>
+<img src="/Z-Guides/images/copied_from_nb/../images/DNS/linux2.png" alt="">
+<br>
+<img src="/Z-Guides/images/copied_from_nb/../images/DNS/linux3.png" alt="">
+<br>
+<img src="/Z-Guides/images/copied_from_nb/../images/DNS/linux4.png" alt="">
+<br></p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p></p>
+<div class="footnotes"><p id="fn-1">1. Thanks for CloudFlare for their post, for further information and more details check their blog: <a href="https://www.cloudflare.com/en-ca/learning/dns/what-is-dns/">What is DNS? | How DNS works</a><a href="#fnref-1" class="footnote footnotes">↩</a></p></div>
+<div class="footnotes"><p id="fn-2">2. <a href="https://www.flaticon.com/authors/eucalyp">For more icons created by Eucalyp - Flaticon</a><a href="#fnref-2" class="footnote footnotes">↩</a></p></div>
+
+</div>
+</div>
+</div>
+</div>
+
+
+
+  </div><!-- from https://github.com/utterance/utterances -->
+<script src="https://utteranc.es/client.js"
+        repo="ZivSimchoni/Z-Guides"
+        issue-term="title"
+        label="blogpost-comment"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script><a class="u-url" href="/Z-Guides/settings/dns/2022/03/20/DNS.html" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/Z-Guides/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+        <p class="feed-subscribe">
+          <a href="/Z-Guides/feed.xml">
+            <svg class="svg-icon orange">
+              <use xlink:href="/Z-Guides/assets/minima-social-icons.svg#rss"></use>
+            </svg><span>Subscribe</span>
+          </a>
+        </p>
+      </div>
+      <div class="footer-col">
+        <p>General blog with outstanding links and apps.</p>
+      </div>
+    </div>
+
+    <div class="social-links"><ul class="social-media-list"><li><a rel="me" href="https://github.com/ZivSimchoni" target="_blank" title="ZivSimchoni"><svg class="svg-icon grey"><use xlink:href="/Z-Guides/assets/minima-social-icons.svg#github"></use></svg></a></li><li><a rel="me" href="https://www.linkedin.com/in/ZivSimchoni" target="_blank" title="ZivSimchoni"><svg class="svg-icon grey"><use xlink:href="/Z-Guides/assets/minima-social-icons.svg#linkedin"></use></svg></a></li><li><a rel="me" href="https://twitter.com/fastdotai" target="_blank" title="fastdotai"><svg class="svg-icon grey"><use xlink:href="/Z-Guides/assets/minima-social-icons.svg#twitter"></use></svg></a></li><li><a rel="me" href="https://t.me/%2BMjPtAIiNncY1YzFk" target="_blank" title="+MjPtAIiNncY1YzFk"><svg class="svg-icon grey"><use xlink:href="/Z-Guides/assets/minima-social-icons.svg#telegram"></use></svg></a></li></ul>
+</div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
