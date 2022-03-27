@@ -162,7 +162,7 @@ DNS servers eliminate the need for humans to memorize IP addresses such as <code
 <p>The process of DNS resolution involves converting a hostname (i.e www.example.com) into a computer-friendly IP address (i.e <code>192.168.1.1</code>).<br>
 An IP address is given to each device on the Internet, and that address is necessary to find the appropriate Internet device - like a street address is used to find a particular home. When a user wants to load a webpage, a translation must occur between what a user types into their web browser (example.com) and the machine-friendly address necessary to locate the example.com webpage.<br></p>
 <p>In order to understand the process behind the DNS resolution, it’s important to learn about the different hardware components a DNS query must pass between. For the web browser, the DNS lookup occurs "behind the scenes" and requires no interaction from the user’s computer apart from the initial request.<br></p>
-<p><img src="https://www.cloudflare.com/img/learning/dns/what-is-dns/dns-record-request-sequence-3.png" alt="How DNS works - the 10 steps in a DNS query"></p>
+<p><img src="https://www.cloudflare.com/img/learning/dns/what-is-dns/dns-record-request-sequence-3.png" alt="How DNS works - the 10 steps in a DNS query" title="Credit: https://www.cloudflare.com/en-ca/learning/dns/what-is-dns/"></p>
 <h3 id="Authoritative-DNS-server">
 <a class="anchor" href="#Authoritative-DNS-server" aria-hidden="true"><span class="octicon octicon-link"></span></a>Authoritative DNS server<a class="anchor-link" href="#Authoritative-DNS-server"> </a>
 </h3>
@@ -194,14 +194,14 @@ An IP address is given to each device on the Internet, and that address is neces
 <li>The browser makes a <a href="https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol">HTTP</a> request to the IP address.</li>
 <li>The server at that IP returns the webpage to be rendered in the browser (step 10).</li>
 </ol>
-<p><img src="https://www.cloudflare.com/img/learning/dns/what-is-dns/dns-lookup-diagram.png" alt="DNS query diagram"></p>
+<p><img src="https://www.cloudflare.com/img/learning/dns/what-is-dns/dns-lookup-diagram.png" alt="DNS query diagram" title="Credit: https://www.cloudflare.com/en-ca/learning/dns/what-is-dns/"></p>
 <h2 id="What-is-a-DNS-resolver?">
 <a class="anchor" href="#What-is-a-DNS-resolver?" aria-hidden="true"><span class="octicon octicon-link"></span></a>What is a DNS resolver?<a class="anchor-link" href="#What-is-a-DNS-resolver?"> </a>
 </h2>
 <p>The DNS resolver is the first stop in the DNS lookup, and it is responsible for dealing with the client that made the initial request. The resolver starts the sequence of queries that ultimately leads to a URL being translated into the necessary IP address.</p>
 <p>Note: A typical uncached DNS lookup will involve both recursive and iterative queries.</p>
 <p>It's important to differentiate between a <a href="/learning/dns/what-is-recursive-dns/">recursive DNS</a> query and a recursive DNS resolver. The query refers to the request made to a DNS resolver requiring the resolution of the query. A DNS recursive resolver is the computer that accepts a recursive query and processes the response by making the necessary requests.<br></p>
-<p><img src="https://www.cloudflare.com/img/learning/dns/what-is-dns/dns-recursive-query.png" alt="DNS query diagram"></p>
+<p><img src="https://www.cloudflare.com/img/learning/dns/what-is-dns/dns-recursive-query.png" alt="DNS query diagram" title="Credit: https://www.cloudflare.com/en-ca/learning/dns/what-is-dns/"></p>
 <h2 id="What-are-the-types-of-DNS-queries?">
 <a class="anchor" href="#What-are-the-types-of-DNS-queries?" aria-hidden="true"><span class="octicon octicon-link"></span></a>What are the types of DNS queries?<a class="anchor-link" href="#What-are-the-types-of-DNS-queries?"> </a>
 </h2>
