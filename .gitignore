@@ -5,6 +5,7 @@ _site
 .sass-cache
 .jekyll-cache
 .jekyll-metadata
+.idea/*
 *.xml
 vendor
 _notebooks/.ipynb_checkpoints
