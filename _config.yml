@@ -39,7 +39,7 @@ baseurl: "/Z-Guides" # the subpath of your site, e.g. "/blog".
 # Github and twitter are optional:
 minima:
   social_links:
-    twitter: fastdotai
+    twitter: ZivSimchoni
     github: ZivSimchoni
     linkedin: ZivSimchoni
     telegram: +MjPtAIiNncY1YzFk
