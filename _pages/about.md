@@ -35,7 +35,7 @@ My name is **Ziv** and I'm a developer, student.
 
 - 📫 How to reach me:
 
-  Email: [ZivSi@pm.me](mailto:ZivSi@pm.me)
+  Email: [ZivSi@pm.me](mailto:ZivSimchoni@gmail.com)
 
   Feel free to ask me about everything.
 
