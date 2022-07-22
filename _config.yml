@@ -24,7 +24,7 @@ url: "https://ZivSimchoni.github.io" # the base hostname & protocol for your sit
 # 
 ####  Scenario Two: If you have a Custom Domain #####
 # 1. If your domain does NOT have a subpath, this leave this value as ""
-# 2. If your domain does have a subpath, you must preceed the value with a / and NOT have a / at the end.  
+# 2. If your domain does have a subpath, you must proceed the value with a / and NOT have a / at the end.  
 #      For example: 
 #           "" is valid
 #           "/blog"        is valid
